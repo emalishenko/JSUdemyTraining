@@ -58,6 +58,23 @@ console.log('Jogn is ' + ageJohn);
 console.log('Mark is ' + ageMark);
 
 
+//Lecture 4: ifelse statement
+
+var name = 'John';
+var age = 26;
+var isMarried = 'yes';
+
+if (isMarried === 'yes'){
+    console.log(name + ' is married!')
+}else{
+    console.log('Hopefully ' + name + ' will marry soon!');
+}
+
+isMarried = true;
+
+if(isMarried){
+    console.log('Is married');
+}
 
 
 
