@@ -8,7 +8,7 @@ console.log(lastName);
 
 var age = 26;
 console.log(age);
-
+$~11!A      jmh
 var fullAge = true;
 console.log(fullAge);
 */
@@ -43,7 +43,7 @@ alert('His last name is ' + lastName);
 
 //Lecture 3: operators
 
-var now = 2018;
+/*var now = 2018;
 var birthYear = now - 26;
 birthYear = now - 26 * 2;
 console.log(birthYear);
@@ -55,12 +55,12 @@ ageJohn++;
 ageMark *= 2;
 
 console.log('Jogn is ' + ageJohn);
-console.log('Mark is ' + ageMark);
+console.log('Mark is ' + ageMark);*/
 
 
 //Lecture 4: ifelse statement
 
-var name = 'John';
+/*var name = 'John';
 var age = 26;
 var isMarried = 'yes';
 
@@ -74,10 +74,35 @@ isMarried = true;
 
 if(isMarried){
     console.log('Is married');
+}*/
+
+// Lecture 5: boolean logic and switches
+
+var age = 26;
+
+if (age < 20){
+    console.log('John is a teenager');
+}else if (age >= 20 && age < 30){
+    console.log('John is a young man');
+}
+else{
+    console.log('John is a man');
 }
 
+var job = 'developer';
 
+job = prompt('What does John do?');
 
+switch(job){
+    case 'teacher':
+        console.log('John teaches kids');
+        break;
+    case 'driver':
+        console.log('John drives cab in Lisbon');
+        break;
+    default:
+        console.log('John does something else');
+}
 
 
 
